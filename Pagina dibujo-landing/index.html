@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACADEMIA DIBUJO NEIVA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <a href="inicio.html" class="btn-inicio">← Inicio</a>
+      <h1>ACADEMIA DIBUJO NEIVA</h1>
+      <p>
+        Aprende dibujo desde cero con modalidades flexibles y cursos
+        especializados.
+      </p>
+    </section>
+
+    <section class="beneficios">
+      <div class="card">
+        <h2>Ahorro en costos</h2>
+        <p>Puedes acceder a planes de estudio con descuentos especiales.</p>
+      </div>
+
+      <div class="card">
+        <h2>Mayor organización</h2>
+        <p>Horario flexibles en modalidad presencial y virtual.</p>
+      </div>
+
+      <div class="card">
+        <h2>Respuestas automáticas</h2>
+        <p>
+          Envíamos correos y mensajes automáticamente para mejorar la
+          comunicación con los usuarios y estudiantes.
+        </p>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <h2>Solicita información</h2>
+
+      <form id="leadForm">
+        <input type="text" id="nombre" placeholder="Nombre" required />
+
+        <input type="email" id="correo" placeholder="Correo" required />
+
+        <input type="text" id="telefono" placeholder="Teléfono" required />
+
+        <input type="text" id="empresa" placeholder="Empresa o negocio" />
+        <select id="curso" required>
+          <option value="">Selecciona un curso</option>
+
+          <option value="Dibujo Básico">Dibujo Básico</option>
+
+          <option value="Anime y Manga">Anime y Manga</option>
+
+          <option value="Dibujo Digital">Dibujo Digital</option>
+
+          <option value="Ilustración Profesional">
+            Ilustración Profesional
+          </option>
+        </select>
+
+        <select id="modalidad" required>
+          <option value="">Selecciona modalidad</option>
+
+          <option value="Virtual">Virtual</option>
+
+          <option value="Presencial">Presencial</option>
+        </select>
+        <button type="submit">Quiero más información</button>
+      </form>
+
+      <p id="mensaje"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
