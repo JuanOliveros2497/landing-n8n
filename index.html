@@ -7,73 +7,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="hero">
-      <a href="inicio.html" class="btn-inicio">← Inicio</a>
+    <header class="hero">
       <h1>ACADEMIA DIBUJO NEIVA</h1>
       <p>
         Aprende dibujo desde cero con modalidades flexibles y cursos
         especializados.
       </p>
-    </section>
+    </header>
 
     <section class="beneficios">
       <div class="card">
-        <h2>Ahorro en costos</h2>
-        <p>Puedes acceder a planes de estudio con descuentos especiales.</p>
-      </div>
+        <img
+          src="imagenes/dibujo-basico.png"
+          alt="Dibujo Básico"
+          class="card-img"
+        />
 
-      <div class="card">
-        <h2>Mayor organización</h2>
-        <p>Horario flexibles en modalidad presencial y virtual.</p>
-      </div>
+        <h2>Dibujo Básico</h2>
 
-      <div class="card">
-        <h2>Respuestas automáticas</h2>
         <p>
-          Envíamos correos y mensajes automáticamente para mejorar la
-          comunicación con los usuarios y estudiantes.
+          Aprende fundamentos del dibujo, formas, proporciones y técnicas
+          iniciales.
         </p>
+      </div>
+
+      <div class="card">
+        <img src="imagenes/anime.png" alt="Anime y Manga" class="card-img" />
+
+        <h2>Anime y Manga</h2>
+
+        <p>
+          Desarrolla personajes estilo anime y mejora tu creatividad visual.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="imagenes/dijital.png" alt="Dibujo Digital" class="card-img" />
+
+        <h2>Dibujo Digital</h2>
+
+        <p>
+          Utiliza herramientas digitales modernas para ilustración profesional.
+        </p>
+      </div>
+
+      <div class="card">
+        <img
+          src="imagenes/ilustracion.png"
+          alt="Ilustración Profesional"
+          class="card-img"
+        />
+
+        <h2>Ilustración Profesional</h2>
+
+        <p>Aprende composición, color y técnicas avanzadas de ilustración.</p>
       </div>
     </section>
 
     <section class="formulario">
-      <h2>Solicita información</h2>
+      <h2>¿Te interesa alguno de nuestros cursos?</h2>
 
-      <form id="leadForm">
-        <input type="text" id="nombre" placeholder="Nombre" required />
+      <p>Solicita más información sobre horarios, modalidades y costos.</p>
 
-        <input type="email" id="correo" placeholder="Correo" required />
-
-        <input type="text" id="telefono" placeholder="Teléfono" required />
-
-        <input type="text" id="empresa" placeholder="Empresa o negocio" />
-        <select id="curso" required>
-          <option value="">Selecciona un curso</option>
-
-          <option value="Dibujo Básico">Dibujo Básico</option>
-
-          <option value="Anime y Manga">Anime y Manga</option>
-
-          <option value="Dibujo Digital">Dibujo Digital</option>
-
-          <option value="Ilustración Profesional">
-            Ilustración Profesional
-          </option>
-        </select>
-
-        <select id="modalidad" required>
-          <option value="">Selecciona modalidad</option>
-
-          <option value="Virtual">Virtual</option>
-
-          <option value="Presencial">Presencial</option>
-        </select>
-        <button type="submit">Quiero más información</button>
-      </form>
-
-      <p id="mensaje"></p>
+      <a href="Formulario.html" class="btn-container">
+        <button>Solicitar más información</button>
+      </a>
     </section>
-
-    <script src="script.js"></script>
   </body>
 </html>
